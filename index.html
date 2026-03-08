@@ -36,7 +36,8 @@
     </div>
     <script>
         function play(id, title) {
-            document.getElementById('player').src = "https://www.youtube.com/embed/" + id;
+            document.getElementById('player').src = "https://www.youtube.com/embed/" + id + "?autoplay=1";
+
             document.getElementById('video-title').innerText = title;
         }
     </script>
